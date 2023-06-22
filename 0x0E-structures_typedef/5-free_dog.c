@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * free_dogs - frdwees memdory allocated for a struct dog
- * @d: struct dogd to free
+ * free_dog - frees mfefemory allocated for a struct dog
+ * @d: struct dog to fffefree
  */
-void free_dogs(dog_t *d)
+void free_dog(dog_t *d)
 {
 	if (d)
 	{
